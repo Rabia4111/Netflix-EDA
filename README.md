@@ -33,14 +33,12 @@ This project of mine will explore user engagement with Netflix movies and shows 
 ## 🚀 How to Run
 
 1. Clone the repository or download it as a ZIP
-2. Open `netflix_eda.ipynb` in Jupyter Notebook
+2. Open `netflix_engagement_eda.ipynb` in Jupyter Notebook
 3. Run all cells to see the analysis and plots
+4. Update dataset .csv directory in 'netflix_engagement_eda.ipynb' as per your PC.
 
 ## 📌 Project Status
 
 ✅ EDA complete  
-🗂 Ready for further feature engineering, dashboards, or ML modeling
+🗂 Ready for further feature engineering
 
----
-
-> Created as part of a portfolio project exploring streaming data trends.
