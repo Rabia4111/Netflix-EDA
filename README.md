@@ -1,44 +1,24 @@
-# 📊 Netflix Engagement EDA (Jan 2017–Jun 2023)
+Project Title:  
+Netflix Engagement Exploratory Data Analysis.
 
-This project of mine will explore user engagement with Netflix movies and shows from January 2017 to June 2023 using Python and Jupyter Notebook. The analysis focuses on viewing trends, top-performing content, and time-based engagement patterns.
+Dataset:  
+This is a report on Netflix engagement since January 2017 to June 2023.
 
-## 📁 Dataset
+Objective:  
+To understand the popularity of shows and movies, the performing best and the pattern of time-based engagement on Netflix.
 
-- **File**: `Netflix_Engagement_Report_2023_Jan-Jun_cleaned.csv`
-- **Columns**:
-  - `Title`: Name of the Netflix title
-  - `Available Globally`: Yes/No
-  - `Release Date`: Original release date of the title
-  - `Hours Viewed`: Total hours viewed during the period
+Steps Performed:  
+1. Read the cleaned data and checked its structure.  
+2. Compared the 10 most-watched titles based on the number of hours Watched.  
+3. Discovered viewing distribution in all content.  
+4. Used release dates as analyzed time trends.  
+5. Cleaned and changed date formats to time based plots.
 
-## 🧪 EDA Highlights
+Key Observations:  
+Most popular titles were determined by the number of hours viewed.  
+Their engagement patterns were identified to be clear across the years of release.  
+Viewing was skewed toward particular popular releases.  
+The time grouping and date parsing allowed trend analysis.
 
-- Identified top 10 most-watched titles by hours
-- Explored distribution of viewing hours
-- Analyzed time trends using release dates
-- Cleaned and converted date formats for proper analysis
-
-## 📊 Visualizations
-
-- Horizontal bar chart of top titles
-- Histogram of hours viewed distribution
-- Line chart of viewing trends by month
-
-## 🛠 Tools Used
-
-- Python (Pandas, Seaborn, Matplotlib)
-- Jupyter Notebook
-- GitHub Desktop
-
-## 🚀 How to Run
-
-1. Clone the repository or download it as a ZIP
-2. Open `netflix_engagement_eda.ipynb` in Jupyter Notebook
-3. Run all cells to see the analysis and plots
-4. Update dataset .csv directory in 'netflix_engagement_eda.ipynb' as per your PC.
-
-## 📌 Project Status
-
-✅ EDA complete  
-🗂 Ready for further feature engineering
-
+Note:  
+The project is on descriptive EDA, and not prediction.
